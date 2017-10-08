@@ -1,0 +1,134 @@
+{
+	margin:0;
+	padding:0;
+}
+
+.row
+{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+body
+{
+	font-family:tahoma;
+}
+.main-nav
+{
+	list-style:none;
+	float:right;
+	margin-top:60px;
+}
+.main-nav li
+{
+	display: inline-block;
+	margin-left:20px;
+}
+
+.main-nav li a
+{
+	
+	text-decoration:none;
+	font-size:90%;
+	font-weight:bold;
+	color:white;
+}
+
+.main-nav li a:hover
+{
+	color:#e67e22;
+	transition:all 0.5s ease-in;
+	padding:15px 0;
+}
+.hero
+{
+position:absolute;
+width:1140px;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+text-align:center;
+color:red;
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(a.jpg);;
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+.image{
+
+}
+.logo img
+{
+	height:100px;
+	float:left;
+	margin-top:30px;
+}
+.btn
+{
+	 border:1px solid #e67e22;
+	 padding:10px 38px;
+	 color:#e67e22;
+	 text-decoration:none;
+	 border-radius:12px;
+	 margin-right:15px;
+}
+.button-awesome
+{
+	margin-top:40px;
+}
+.btn-half
+{
+	background-color:#e67e22;
+	color:white;
+}
+.about{
+	text-align:center;
+}
+.admission{
+	text-align:center;
+}
+.testimonials{
+	text-align:center;
+}
+
+ .testimonials p
+ {
+	
+	 line-height:25px;
+	 text-align:justify;
+	 margin-top:40px;
+ }
+.testimonials cite img
+ {
+	 width:50px;
+	 height:50px;
+	 border-radius:50%;
+	 margin-right:10px;
+ }
+.ourcities{
+	text-align:center;
+}
+.contactus{
+	text-align:center;
+}
+ .btn-block
+ {
+	 background-color:#e67e22;
+	 color:#fff;
+	 border-radius:4px;
+	 margin-top:20px;
+ }
+ .gap
+ {
+	 margin-top:40px;
+ }
+ .form
+ {
+	 margin-top:40px
+ }
+ 
